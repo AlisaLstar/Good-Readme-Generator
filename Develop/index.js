@@ -20,7 +20,7 @@ const questions = [
     },
     {
         type: "input", 
-        name: "table of contents",
+        name: "tableOfContents",
         message: "What are the table of contents?"
     
     }, 
@@ -112,4 +112,4 @@ init();
 
 
 
-// answer array:
+
