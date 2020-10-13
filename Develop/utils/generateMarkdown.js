@@ -4,6 +4,8 @@ function generateMarkdown(data) {
   
   ${data.description}
   
+  ## Table of Contents
+  ${data.TableOfContents}
 `;
 }
 

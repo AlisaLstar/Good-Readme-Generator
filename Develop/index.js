@@ -18,16 +18,72 @@ const questions = [
         message: "What is the description?"
     
     },
-//  * Title
-//   * Description
-//   * Table of Contents
-//   * Installation
-//   * Usage
-//   * License
-//   * Contributing
-//   * Tests
-//   * Questions
+    {
+        type: "input", 
+        name: "table of contents",
+        message: "What are the table of contents?"
+    
+    }, 
 
+    {
+        type: "input", 
+        name: "installation",
+        message: "What are the steps to installation?"
+    
+    }, 
+
+    {
+        type: "input", 
+        name: "usage",
+        message: "What are the instrcutions of how to use your App?"
+    
+    }, 
+
+    {
+        type: "list", 
+        name: "license",
+        message: "Please select the license for your project!",
+        choices: [
+                "MIT",
+                "BSD",
+                "GLP",
+                "CC"
+                 ]
+    }, 
+
+    {
+        type: "input", 
+        name: "contributing",
+        message: "Who are the contributors of your project?"
+    
+    }, 
+
+    {
+        type: "input", 
+        name: "tests",
+        message: "How do you test your porject?"
+    
+    }, 
+
+    {
+        type: "input", 
+        name: "questions",
+        message: "Please contact if you have a question?"
+    
+    }, 
+
+    {
+        type: "input", 
+        name: "username",
+        message: "What is your Github username?"
+    
+    }, 
+    {
+        type: "input", 
+        name: "email",
+        message: "What is your email?"
+    
+    }, 
 
 ];
 
@@ -53,3 +109,7 @@ function init() {
 
 // function call to initialize program
 init();
+
+
+
+// answer array:
