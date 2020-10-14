@@ -6,6 +6,15 @@ function generateMarkdown(data) {
   ${data.description}
   
   ## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Username](#username)
+- [Email](#email)
   ${data.tableOfContents}
 
   ## Installation
@@ -15,7 +24,8 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg "License Badge")
+  
 
   ## Contributing
   ${data.contributing}
@@ -27,12 +37,13 @@ function generateMarkdown(data) {
   ${data.questions}
 
   ## Username
-  ${data.username}
-  
-  ## Email
-  ${data.email}
+  - [GitHub Profile](https://github.com/${data.username});
   
 
+  ## Email
+
+  ${data.email}
+  
 
 `;
 }

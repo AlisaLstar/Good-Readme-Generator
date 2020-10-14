@@ -17,12 +17,6 @@ const questions = [
         name: "description",
         message: "What is the description?"
     
-    },
-    {
-        type: "input", 
-        name: "tableOfContents",
-        message: "What are the table of contents?"
-    
     }, 
 
     {
