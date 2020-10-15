@@ -18,13 +18,13 @@ function generateMarkdown(data) {
   ${data.tableOfContents}
 
   ## Installation
-  Please follow the **link** to YouTube below for installation.
-  [![Good ReadMe Generator Installation](./assets/youtube.jpg)](http://www.youtube.com/watch?v=${data.installation} "Good ReadMe Generator Installation")
+  Please follow the **link** to YouTube for installation.
+  [![Good ReadMe Generator Installation](../assets/youtube.jpg)](https://youtu.be/XxeWnRSJsM4 "Good ReadMe Generator Installation")
 
  
   
   ## Usage
-  ![Usage Image](./assets/usage.png)
+  ![Usage Image](../assets/usage.png)
   ${data.usage}
 
 
@@ -42,7 +42,7 @@ function generateMarkdown(data) {
   ${data.questions}
 
   ## Username
-  ![Usage Image](./assets/github.png)
+  ![Usage Image](../assets/github.png)
   - [GitHub Profile](https://github.com/${data.username});
   
 
