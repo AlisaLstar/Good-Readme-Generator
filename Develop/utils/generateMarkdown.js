@@ -18,10 +18,15 @@ function generateMarkdown(data) {
   ${data.tableOfContents}
 
   ## Installation
-  ${data.installation}
+  Please follow the **link** to YouTube below for installation.
+  [![Good ReadMe Generator Installation](./assets/youtube.jpg)](http://www.youtube.com/watch?v=${data.installation} "Good ReadMe Generator Installation")
+
+ 
   
   ## Usage
+  ![Usage Image](./assets/usage.png)
   ${data.usage}
+
 
   ## License
   ![License](https://img.shields.io/badge/License-${data.license}-blue.svg "License Badge")
@@ -37,13 +42,14 @@ function generateMarkdown(data) {
   ${data.questions}
 
   ## Username
+  ![Usage Image](./assets/github.png)
   - [GitHub Profile](https://github.com/${data.username});
   
 
   ## Email
 
   ${data.email}
-  
+
 
 `;
 }
